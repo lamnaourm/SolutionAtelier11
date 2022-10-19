@@ -14,7 +14,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
 
         <h1>Nombre d'utilisateurs : {this.state.utilisateurs.length}</h1>
         {this.state.utilisateurs.length !== 0 ? (
